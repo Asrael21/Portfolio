@@ -1,0 +1,36 @@
+/* ------------------------------
+		Contact 
+------------------------------ */
+.contact{
+	&-item{
+		margin-bottom: 4px;
+		&__name{
+			margin-bottom: 2px;
+			font-weight: 700;
+		}
+
+		&__text{
+			display: flex;
+			align-items: center;
+			gap: 6px;
+
+			&__icon{
+				color:$accent-color;
+			}
+
+		}
+	}
+	&-form{
+		&__input{
+			border-radius: $rd-default;
+			padding: 12px 20px;
+			border-color: $light-color;
+		}
+	}
+
+}
+
+
+
+
+

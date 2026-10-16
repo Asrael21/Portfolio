@@ -1,0 +1,17 @@
+/* ------------------------------
+		 Page404
+------------------------------ */
+.error-page{
+  text-align: center;
+  &__banner{
+    &__img{
+     margin-bottom: 20px;
+    }
+    &__title{
+      margin-bottom: 4px;
+    }
+    &__desc{
+     margin-bottom: 30px;
+    }
+  }
+}

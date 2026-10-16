@@ -1,0 +1,175 @@
+/* ---------------------------------
+		Blog 
+--------------------------------- */
+.article{
+	&:hover{
+		.article__image img {
+			transform: scale(1.2);
+		}
+		.article__content{
+			&__title{
+				a{
+					color:$heading-color;
+					
+				}
+			}
+			
+			.btn-read-more {
+				
+				background-color:$accent-color;
+				border:1px solid $accent-color;
+				color:$white-color;
+				i{
+					color:$white-color;
+					transform: rotate(45deg);
+				}
+			}
+
+		}
+	}
+	&__image{	
+		border-radius: $rd-default;
+		overflow: hidden;
+		&__img{
+			@include ease(1);
+			border-radius: $rd-default;
+			@include shadow()
+		}
+	
+	}
+	&__content{
+		margin-top: 24px;
+		&__meta{
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			margin-bottom: 24px;
+			.date{
+				font-size: 12px;
+				display: flex;
+				align-items: center;
+				gap: 6px;
+			}
+		}
+		&__title{
+			margin-bottom: 24px;
+			a{
+				color:$heading-color;
+				
+			}
+		}
+	}
+}
+
+
+.category{
+	background-color: $accent-color;
+	border-radius: $rd-default;
+	padding: 2px 12px;
+	font-size: 12px;
+	font-weight: 500;
+	color: $white-color;
+	text-transform:capitalize;
+	&:hover{
+		color:$text-color;
+	}
+}
+
+.blog{
+	&-single{
+		&__img{
+			border-radius: $rd-default;
+			margin-bottom: 24px;
+		}
+		&__content{
+			width:900px;
+			margin: auto;
+			&__meta{
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				margin-bottom: 12px;
+				div{
+					display: flex;
+					align-items: center;
+					gap: 12px;
+					span{
+						font-size: 12px;
+					}
+				}
+			}
+			&__title{
+				margin-bottom: 12px;
+			}
+			&__body{
+				margin-bottom: 50px;
+			}
+			&__footer{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+		}
+		
+	}
+}
+
+.qoute{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	&__icon{
+		text-align: center;
+		width:40px;
+		height:40px;
+		line-height: 40px;
+		border-radius: $rd-full;
+		background-color: $accent-color;
+		margin-bottom: 12px;  
+		i{
+			font-size: 20px;
+			color:$white-color;
+		}
+	}
+	&__text{
+    margin-bottom: 12px;   
+		text-align: center;
+	}
+	&__author{
+     font-weight: 700;    
+	}
+}
+
+.image-block{
+	margin-bottom: 16px;
+	&__img{
+   border-radius: $rd-default;
+	 margin-bottom: 6px;
+	}
+	&__caption{
+    text-align: center;
+		font-size: 14px;
+	}
+}
+
+.tags{
+	padding-left: 0;
+	margin-bottom: 0;
+	&__item{
+		display:inline-block
+	}
+	&__link{
+		background-color: $secondary-color;
+		border-radius: $rd-default;
+		padding: 2px 12px;
+		font-size: 12px;
+		font-weight: 500;
+		color: $text-color;
+		margin-bottom: 3px;
+		text-transform:capitalize;
+	}
+}
+
+
+
+

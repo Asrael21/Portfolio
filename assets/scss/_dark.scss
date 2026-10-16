@@ -1,0 +1,74 @@
+/* ------------------------------
+		 Dark
+------------------------------ */
+
+.dark{
+    background-color: $primary-color-dark;
+    body{
+        background-color: $primary-color-dark;
+        color:$text-color-dark;  
+    }
+
+    h1, h2, h3, h4, h5, h6,a:hover,
+    .portfolio-item:hover .portfolio-item__content__title,
+    .portfolio-item:hover .portfolio-item__content .btn-link,
+    .article:hover .article__content__title a {
+        color:$heading-color-dark ;
+    }
+    
+    .details__list li span,
+    .feature__text,
+    .btn-link,
+    .article__content__title a,
+    .btn-read-more,
+    .item__social-media .social-media__link i,
+    .nav__link,
+    .switch-mode__icon i,
+    a,
+    .contact-item__social-media .social-media__link i
+    {
+        color:$text-color-dark; 
+    }
+
+   
+    .header,
+    .section--white,
+    .card--white,.contact-form__input,
+    .pagination__number,
+    .loading,
+    .header--left .header__nav{
+        background-color: $primary-color-dark;
+    }
+
+    .card--light,
+    .section--light,
+    .tags__link,
+    .switch-mode__icon {
+        background-color: $secondary-color-dark;
+    }
+    
+    .heading__content p {
+      color:$muted-color-dark
+    }
+
+    .pagination__number,
+    .header--left,
+    .footer,
+    .contact-form__input{
+        border-color: $border-color-dark !important;
+    }
+    .testimonial__image img{
+        border-color:$primary-color-dark;
+    }
+  
+    .heading__shape{
+        border-color: $white-color;
+    }
+    .blog-single__content__footer__social-media .social-media__link i{
+        color:$text-color-dark ; 
+        &:hover{
+            color:$accent-color;
+        }
+    }
+    
+}

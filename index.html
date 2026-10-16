@@ -1,0 +1,1175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Israel Teshale - Full-Stack Web Developer specializing in React, Node.js, Express, MySQL, MongoDB, and modern web application development.">
+    <meta name="keywords" content="Israel Teshale, Full-Stack Developer, MERN Stack, React Developer, Node.js, Express, MySQL, Evangadi Tech, Web Developer Ethiopia">
+    <meta name="author" content="Israel Teshale">
+
+    <!-- Title -->
+    <title>Israel Teshale | Full-Stack Web Developer Portfolio</title>
+
+    <!-- CSS here -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/jquery.animatedheadline.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/scrollCue.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="mariam__wraper">
+      <!-- loading -->
+      <div class="loading text-center">
+        <div class="spinner-border text-warning" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+
+      <!-- menu toggle -->
+      <button class="button-toggle" id="buttonToggle" aria-label="Toggle navigation menu">
+        <span></span>
+      </button>
+
+      <!-- header -->
+      <header class="header header--left">
+        <div class="header__container">
+          <div class="header__logo text-center">
+            <a href="index.html" class="d-inline-block text-decoration-none">
+              <span class="fw-bold fs-4 text-warning">IT</span>
+              <span class="d-block text-muted" style="font-size: 11px; letter-spacing: 1px;">DEV</span>
+            </a>
+          </div>
+
+          <nav class="header__nav">
+            <div class="header__nav__cross">
+              <i class="bi bi-x-lg"></
+            </div>  
+            <ul class="nav">
+              <li class="nav__item"><a class="nav__link active" aria-current="page" href="#home">Home</a></li>
+              <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+              <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+              <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+              <li class="nav__item"><a class="nav__link" href="#portfolio">Featured</a></li>
+              <li class="nav__item"><a class="nav__link" href="#evangadi-projects">Evangadi Works</a></li>
+              <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+            </ul>      
+          </nav> 
+
+          <div class="header__switch-mode">
+            <div class="switch-mode">
+              <button class="switch-mode__icon switch-mode--light" onclick="setTheme('light')" title="Light mode" aria-label="Switch to Light Mode">
+                <i class="bi bi-sun"></i>
+              </button>
+              <button class="switch-mode__icon switch-mode--dark" onclick="setTheme('dark')" title="Dark mode" aria-label="Switch to Dark Mode">
+                <i class="bi bi-moon-fill"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+ 
+      <!-- Main Content -->
+      <main class="main">
+
+        <!-- Home Section -->
+        <section class="home vh-100" id="home" style="background-image: url('assets/images/bg/tech-banner.svg'); background-size: cover; background-position: center;">
+          <div class="container" data-cues="fadeIn">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="home__content vh-100">
+                  <div class="home__social-media">
+                    <ul class="social-media">
+                      <li class="social-media__item">
+                        <a href="https://github.com/Asrael21" target="_blank" rel="noopener noreferrer" class="social-media__link" title="GitHub">
+                          <i class="bi bi-github"></i>
+                        </a>
+                      </li>
+                      <li class="social-media__item">
+                        <a href="mailto:israelteshale2023@gmail.com" class="social-media__link" title="Email">
+                          <i class="bi bi-envelope-fill"></i>
+                        </a>
+                      </li>
+                      <li class="social-media__item">
+                        <a href="https://t.me/IsraelTeshale" target="_blank" rel="noopener noreferrer" class="social-media__link" title="Telegram">
+                          <i class="bi bi-telegram"></i>
+                        </a>
+                      </li>
+                      <li class="social-media__item">
+                        <a href="tel:+251938181656" class="social-media__link" title="Phone">
+                          <i class="bi bi-telephone-fill"></i>
+                        </a>
+                      </li>  
+                    </ul>
+                  </div>
+
+                  <!-- Banner -->
+                  <div class="home__banner">
+                    <div class="banner">
+                      <h6 class="banner__subtitle">Hello, I'm Israel Teshale</h6>
+                      <h1 class="banner__title cd-headline clip">I Am a
+                        <span class="cd-words-wrapper">
+                          <b class="is-visible">Full-Stack Developer</b>
+                          <b>MERN Stack Engineer</b>
+                          <b>React &amp; Node Builder</b>
+                          <b>Software Engineer</b>
+                        </span>
+                      </h1>
+                      <p class="banner__desc">
+                        Passionate AI Powered Full-Stack Developer specializing in building modern, scalable web applications with React, Node.js, Express, and MySQL/MongoDB. Dedicated to crafting seamless digital experiences with clean architecture.
+                      </p>
+                      <div class="d-flex flex-wrap gap-3">
+                        <a href="#portfolio" class="btn-default"> 
+                          <i class="bi bi-code-slash"></i>
+                          <span>View Projects</span>
+                        </a>
+                        <a href="#contact" class="btn-default btn-outline-hero" style="background-color: rgba(255, 255, 255, 0.08); border: 2px solid #F2BD3E; color: #ffffff;"> 
+                          <i class="bi bi-envelope-check"></i>
+                          <span>Contact Me</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Quick Info -->
+                  <div class="home__info">
+                    <div class="info">
+                      <div class="info__item">
+                        <p class="mb-0 fw-bold">Email:</p>
+                        <p class="mb-0"><a href="mailto:israelteshale2023@gmail.com" class="text-decoration-none">israelteshale2023@gmail.com</a></p>
+                      </div>
+                      <div class="info__item">
+                        <p class="mb-0 fw-bold">Phone:</p>
+                        <p class="mb-0"><a href="tel:+251938181656" class="text-decoration-none">+251 938 181 656</a></p>
+                      </div>
+                      <div class="info__item">
+                        <p class="mb-0 fw-bold">Location:</p>
+                        <p class="mb-0">Addis Ababa, Ethiopia</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section section--white" id="about">
+          <div class="container">
+            <!-- Heading -->
+            <div class="row" data-cues="fadeIn">
+              <div class="col-12">
+                <div class="heading">
+                  <div class="heading__shape"></div>
+                  <div class="heading__content">
+                    <h2>About Me</h2>
+                    <p>Engineering background combined with full-stack web software development.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Profile & Details -->
+            <div class="row" data-cues="fadeIn">
+              <div class="col-xl-5 mb-24">
+                <div class="profile card card--img text-center overflow-hidden shadow-sm" style="border-radius: 14px;">
+                  <img src="assets/images/pp.png" alt="Israel Teshale - Full-Stack Developer" class="profile__img w-100" style="object-fit: cover; max-height: 520px;">
+                </div>
+              </div>
+              <div class="col-xl-7">
+                <div class="details card card--light">
+                  <h3 class="details__title">Hello,<br>I'm Israel Teshale, Based in Addis Ababa</h3>
+                  <p class="details__desc">
+                    I am a results-oriented AI powered Full-Stack Web Developer with an engineering degree from Mekelle University and rigorous AI powered full-stack training at Evangadi Tech. I build end-to-end web applications, combining intuitive and responsive React frontends with secure, scalable Node.js/Express backends and relational MySQL / NoSQL databases.
+                  </p>
+                  <p class="details__desc">
+                    Whether architecting full-stack community forums, engineering secure e-commerce payment flows, or developing high-throughput REST APIs, I am focused on writing clean, maintainable code that delivers real value.
+                  </p>
+
+                  <ul class="details__list">   
+                    <li><span>Phone :</span> +251 938 181 656</li>
+                    <li><span>Email :</span> <a href="mailto:israelteshale2023@gmail.com">israelteshale2023@gmail.com</a></li>
+                    <li><span>Nationality :</span> Ethiopian</li>
+                    <li><span>Address :</span> Addis Ababa, Ethiopia</li>
+                    <li><span>Telegram :</span> <a href="https://t.me/IsraelTeshale" target="_blank" rel="noopener noreferrer">@IsraelTeshale</a></li>
+                    <li><span>Availability :</span> Open for Full-time Roles &amp; Freelance</li>
+                  </ul>
+
+                  <div class="details__btn">
+                    <a href="assets/images/cv.pdf" class="btn-default" download title="Download Israel Teshale CV">
+                      <i class="bi bi-cloud-arrow-down-fill"></i>
+                      <span>Download My CV</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <!-- Impact Metrics / Features -->
+            <div class="row" data-cues="fadeIn">
+              <div class="col-lg-3 col-sm-6">
+                <div class="feature card card--light">
+                  <h1 class="feature__number text-warning">10+</h1>
+                  <p class="feature__text">Projects &amp; Clones Built</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="feature card card--light">
+                  <h1 class="feature__number text-warning">100%</h1>
+                  <p class="feature__text">Commitment &amp; Clean Code</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="feature card card--light">
+                  <h1 class="feature__number text-warning">B.Sc.</h1>
+                  <p class="feature__text">Mekelle University Graduate</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="feature card card--light">
+                  <h1 class="feature__number text-warning">Evangadi</h1>
+                  <p class="feature__text">Full-Stack Tech Certified</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience & Education -->
+            <div class="row" data-cues="fadeIn">
+              <!-- Experience -->
+              <div class="col-lg-6">
+                <div class="timeline card card--light">
+                  <div class="timeline__single">
+                    <h4 class="timeline__single__title"><i class="bi bi-briefcase-fill text-warning me-2"></i> Experience</h4>
+                        
+                    <div class="timeline__item">
+                      <div class="timeline__item__img d-flex align-items-center justify-content-center text-white">
+                        <i class="bi bi-code-slash fs-5"></i>
+                      </div>
+                      <div class="timeline__item__content">
+                        <h6>Full-Stack Web Developer Intern</h6>
+                        <p>
+                          <span>Pillasa Tech</span>
+                          <span class="dot"></span>
+                          <span>Intensive Program</span>
+                        </p>
+                        <div>
+                          <span>November 2024 - March 2025</span>
+                          <span class="dot"></span>
+                          <span>Full-Stack MERN &amp; MySQL</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="timeline__item">
+                      <div class="timeline__item__img d-flex align-items-center justify-content-center text-white">
+                        <i class="bi bi-laptop fs-5"></i>
+                      </div>
+                      <div class="timeline__item__content">
+                        <h6>Frontend Web Developer</h6>
+                        <p>
+                          <span>Freelance &amp; Personal Projects</span>
+                          <span class="dot"></span>
+                          <span>Self-Employed</span>
+                        </p>
+                        <div>
+                          <span>2025 - Present</span>
+                          <span class="dot"></span>
+                          <span>React, JS, Bootstrap</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="timeline__item">
+                      <div class="timeline__item__img d-flex align-items-center justify-content-center text-white">
+                        <i class="bi bi-gear-wide-connected fs-5"></i>
+                      </div>
+                      <div class="timeline__item__content">
+                        <h6>Engineering Problem Solving &amp; Systems</h6>
+                        <p>
+                          <span>Mekelle University</span>
+                          <span class="dot"></span>
+                          <span>Academic Projects</span>
+                        </p>
+                        <div>
+                          <span>2020 - 2025</span>
+                          <span class="dot"></span>
+                          <span>Analytical Modeling</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+
+              <!-- Education -->
+              <div class="col-lg-6">
+                <div class="timeline card card--light">
+                  <div class="timeline__single">
+                    <h4 class="timeline__single__title"><i class="bi bi-mortarboard-fill text-warning me-2"></i> Education</h4>
+                    
+                    <div class="timeline__item">
+                      <div class="timeline__item__img d-flex align-items-center justify-content-center text-white">
+                        <i class="bi bi-cpu fs-5"></i>
+                      </div>
+                      <div class="timeline__item__content">
+                        <h6>AI-Powered Full-Stack Web Development</h6>
+                        <p>
+                          <span>Evangadi Tech</span>
+                          <span class="dot"></span>
+                          <span>Intensive BootCamp</span>
+                        </p>
+                        <div>
+                          <span>2025 - 2026</span>
+                          <span class="dot"></span>
+                          <span>MERN, MySQL &amp; AI Integration</span>
+                        </div>
+                        <div class="mt-2 text-muted" style="font-size: 13px; line-height: 1.5;">
+                          Built capstone projects including the Evangadi Forum (with RAG AI assistance), ChatGPT conversational clone, Netflix movie streaming app, Apple.com front-end clone, and interactive web applications.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="timeline__item">
+                      <div class="timeline__item__img d-flex align-items-center justify-content-center text-white">
+                        <i class="bi bi-award-fill fs-5"></i>
+                      </div>
+                      <div class="timeline__item__content">
+                        <h6>Bachelor of Science in Engineering</h6>
+                        <p>
+                          <span>Mekelle University</span>
+                          <span class="dot"></span>
+                          <span>Degree Program</span>
+                        </p>
+                        <div>
+                          <span>2018 - 2025</span>
+                          <span class="dot"></span>
+                          <span>Systems &amp; Analysis</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="timeline__item">
+                      <div class="timeline__item__img d-flex align-items-center justify-content-center text-white">
+                        <i class="bi bi-patch-check-fill fs-5"></i>
+                      </div>
+                      <div class="timeline__item__content">
+                        <h6>Modern Programming &amp; Computer Science</h6>
+                        <p>
+                          <span>Udacity &amp; Online Bootcamps</span>
+                          <span class="dot"></span>
+                          <span>Self-Driven</span>
+                        </p>
+                        <div>
+                          <span>2024 - 2025</span>
+                          <span class="dot"></span>
+                          <span>Algorithms &amp; Web Standards</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="skills section section--light" id="skills">
+          <div class="container">
+            <!-- Heading -->
+            <div class="row" data-cues="fadeIn">
+              <div class="col-12">
+                <div class="heading">
+                  <div class="heading__shape"></div>
+                  <div class="heading__content">
+                    <h2>Technical Skills</h2>
+                    <p>Core technologies, frameworks, and developer tools in my tech stack.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills Cards -->
+            <div class="row" data-cues="fadeIn">
+              <!-- Frontend -->
+              <div class="col-xl-3 col-md-6 mb-24">
+                <div class="skill-card card card--white">
+                  <div class="skill-card__header">
+                    <div class="skill-card__icon">
+                      <i class="bi bi-filetype-jsx"></i>
+                    </div>
+                    <h5 class="skill-card__title">Frontend</h5>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag"><i class="bi bi-check2"></i> React.js</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> JavaScript (ES6+)</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> HTML5 / CSS3</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Bootstrap 5</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Responsive UI</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Context API</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Backend -->
+              <div class="col-xl-3 col-md-6 mb-24">
+                <div class="skill-card card card--white">
+                  <div class="skill-card__header">
+                    <div class="skill-card__icon">
+                      <i class="bi bi-server"></i>
+                    </div>
+                    <h5 class="skill-card__title">Backend</h5>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Node.js</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Express.js</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> RESTful APIs</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> JWT Auth</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> bcrypt Security</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Middleware</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Database -->
+              <div class="col-xl-3 col-md-6 mb-24">
+                <div class="skill-card card card--white">
+                  <div class="skill-card__header">
+                    <div class="skill-card__icon">
+                      <i class="bi bi-database-fill-gear"></i>
+                    </div>
+                    <h5 class="skill-card__title">Databases</h5>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag"><i class="bi bi-check2"></i> MySQL</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> MongoDB</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Relational Modeling</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> SQL Queries</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Data Integrity</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Mongoose</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tools & DevOps -->
+              <div class="col-xl-3 col-md-6 mb-24">
+                <div class="skill-card card card--white">
+                  <div class="skill-card__header">
+                    <div class="skill-card__icon">
+                      <i class="bi bi-tools"></i>
+                    </div>
+                    <h5 class="skill-card__title">Tools &amp; Workflow</h5>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Git &amp; GitHub</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Postman</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> npm / Vite</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Netlify / Vercel</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> VS Code</span>
+                    <span class="skill-tag"><i class="bi bi-check2"></i> Agile / Scrum</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section section--white" id="services">
+          <div class="container">
+            <!-- Heading -->
+            <div class="row" data-cues="fadeIn">
+              <div class="col-12">
+                <div class="heading">
+                  <div class="heading__shape"></div>
+                  <div class="heading__content">
+                    <h2>My Services</h2>
+                    <p>What I bring to your team or next project.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row" data-cues="fadeIn">
+              <!-- Service 1 -->
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="service card card--light">
+                  <div class="service__icon-wrap">
+                    <i class="bi bi-layers-fill"></i>
+                  </div>
+                  <div class="service__content">
+                    <h5 class="service__content__title">Full-Stack Web Development</h5>
+                    <p class="service__content__desc">
+                      Building complete, robust web applications from frontend user interfaces to backend logic, server configuration, and database management.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service 2 -->
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="service card card--light">
+                  <div class="service__icon-wrap">
+                    <i class="bi bi-laptop"></i>
+                  </div>
+                  <div class="service__content">
+                    <h5 class="service__content__title">Frontend &amp; UI Development</h5>
+                    <p class="service__content__desc">
+                      Crafting responsive, pixel-perfect, and accessible user experiences with React.js, clean CSS3, JavaScript ES6+, and modern UI frameworks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service 3 -->
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="service card card--light">
+                  <div class="service__icon-wrap">
+                    <i class="bi bi-hdd-network-fill"></i>
+                  </div>
+                  <div class="service__content">
+                    <h5 class="service__content__title">Backend &amp; RESTful APIs</h5>
+                    <p class="service__content__desc">
+                      Designing secure, scalable RESTful API endpoints using Node.js and Express, complete with JWT authentication, validation, and middleware.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service 4 -->
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="service card card--light">
+                  <div class="service__icon-wrap">
+                    <i class="bi bi-database-check"></i>
+                  </div>
+                  <div class="service__content">
+                    <h5 class="service__content__title">Database Architecture</h5>
+                    <p class="service__content__desc">
+                      Designing relational schemas and managing databases with MySQL and MongoDB, structuring queries for reliability, integrity, and performance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service 5 -->
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="service card card--light">
+                  <div class="service__icon-wrap">
+                    <i class="bi bi-cart-check-fill"></i>
+                  </div>
+                  <div class="service__content">
+                    <h5 class="service__content__title">E-Commerce &amp; Integrations</h5>
+                    <p class="service__content__desc">
+                      Integrating secure third-party payment gateways like Stripe, external REST APIs, stateful shopping cart flows, and order management.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service 6 -->
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="service card card--light">
+                  <div class="service__icon-wrap">
+                    <i class="bi bi-speedometer2"></i>
+                  </div>
+                  <div class="service__content">
+                    <h5 class="service__content__title">Performance &amp; Cloud Deployment</h5>
+                    <p class="service__content__desc">
+                      Optimizing web applications for fast load speeds, cross-browser compatibility, SEO best practices, and continuous deployment on cloud platforms.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="portfolio section section--light" id="portfolio">
+          <div class="container">
+            <!-- Heading -->
+            <div class="row" data-cues="fadeIn">
+              <div class="col-12">
+                <div class="heading">
+                  <div class="heading__shape"></div>
+                  <div class="heading__content">
+                    <h2>Featured Projects</h2>
+                    <p>Production-grade full-stack architectures, real-time systems, and scalable web solutions.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row portfolio__items" data-cues="fadeIn">
+              <!-- Featured Project 1: AI E-Commerce Platform -->
+              <div class="col-xl-4 col-lg-6 col-md-6 mb-24">
+                <div class="portfolio-item card card--white">
+                  <div class="portfolio-item__image">
+                    <img class="portfolio-item__image__img" src="assets/images/portfolio/amazon-clone.jpg" alt="Nexus AI E-Commerce Platform Preview"/>
+                    <div class="portfolio-item__image__btn">
+                      <a href="assets/images/portfolio/amazon-clone.jpg" class="btn-view" title="Zoom Preview">
+                        <i class="bi bi-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="portfolio-item__content">
+                    <div class="portfolio-item__content__info">
+                      <h5 class="portfolio-item__content__title">Nexus AI E-Commerce</h5>
+                      <p class="portfolio-item__content__subtitle text-muted">Full-Stack MERN &amp; Stripe</p>
+                    </div>
+                    <p class="portfolio-item__desc">
+                      An end-to-end shopping platform featuring AI-assisted smart search, product recommendation algorithms, cart state synchronization, and secure Stripe payment processing.
+                    </p>
+                    <div class="portfolio-tags">
+                      <span class="tech-tag">React</span>
+                      <span class="tech-tag">Node.js</span>
+                      <span class="tech-tag">Stripe API</span>
+                      <span class="tech-tag">MySQL</span>
+                      <span class="tech-tag">AI Search</span>
+                    </div>
+                    <div class="portfolio-item__actions">
+                      <a href="https://github.com/Asrael21" target="_blank" rel="noopener noreferrer" class="btn-project btn-project--primary">
+                        <i class="bi bi-github"></i> <span>Source Code</span>
+                      </a>
+                      <a href="assets/images/portfolio/amazon-clone.jpg" class="btn-project btn-project--outline btn-view">
+                        <i class="bi bi-eye"></i> <span>Preview</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Featured Project 2: Enterprise REST API -->
+              <div class="col-xl-4 col-lg-6 col-md-6 mb-24">
+                <div class="portfolio-item card card--white">
+                  <div class="portfolio-item__image">
+                    <img class="portfolio-item__image__img" src="assets/images/portfolio/enterprise-api.svg" alt="Enterprise REST API Architecture Preview"/>
+                    <div class="portfolio-item__image__btn">
+                      <a href="assets/images/portfolio/enterprise-api.svg" class="btn-view" title="Zoom Preview">
+                        <i class="bi bi-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="portfolio-item__content">
+                    <div class="portfolio-item__content__info">
+                      <h5 class="portfolio-item__content__title">Enterprise Task &amp; Auth REST API</h5>
+                      <p class="portfolio-item__content__subtitle text-muted">Backend Architecture</p>
+                    </div>
+                    <p class="portfolio-item__desc">
+                      Scalable RESTful microservices with JWT authentication, role-based access control (RBAC), bcrypt hashing, connection pool management, and complete Postman documentation.
+                    </p>
+                    <div class="portfolio-tags">
+                      <span class="tech-tag">Node.js</span>
+                      <span class="tech-tag">Express</span>
+                      <span class="tech-tag">MySQL</span>
+                      <span class="tech-tag">JWT</span>
+                      <span class="tech-tag">Postman</span>
+                    </div>
+                    <div class="portfolio-item__actions">
+                      <a href="https://github.com/Asrael21" target="_blank" rel="noopener noreferrer" class="btn-project btn-project--primary">
+                        <i class="bi bi-github"></i> <span>Source Code</span>
+                      </a>
+                      <a href="assets/images/portfolio/enterprise-api.svg" class="btn-project btn-project--outline btn-view">
+                        <i class="bi bi-eye"></i> <span>Preview</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Featured Project 3: Real-Time Chat Platform -->
+              <div class="col-xl-4 col-lg-6 col-md-6 mb-24">
+                <div class="portfolio-item card card--white">
+                  <div class="portfolio-item__image">
+                    <img class="portfolio-item__image__img" src="assets/images/portfolio/pulse-chat.svg" alt="Pulse Real-Time Messaging Platform Preview"/>
+                    <div class="portfolio-item__image__btn">
+                      <a href="assets/images/portfolio/pulse-chat.svg" class="btn-view" title="Zoom Preview">
+                        <i class="bi bi-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="portfolio-item__content">
+                    <div class="portfolio-item__content__info">
+                      <h5 class="portfolio-item__content__title">Pulse Real-Time Chat</h5>
+                      <p class="portfolio-item__content__subtitle text-muted">WebSocket Collaboration</p>
+                    </div>
+                    <p class="portfolio-item__desc">
+                      Bidirectional team messaging platform with Socket.io WebSockets, live user presence indicators, team channels, message persistence, and responsive UI.
+                    </p>
+                    <div class="portfolio-tags">
+                      <span class="tech-tag">React</span>
+                      <span class="tech-tag">Node.js</span>
+                      <span class="tech-tag">Socket.io</span>
+                      <span class="tech-tag">Bootstrap 5</span>
+                      <span class="tech-tag">MySQL</span>
+                    </div>
+                    <div class="portfolio-item__actions">
+                      <a href="https://github.com/Asrael21" target="_blank" rel="noopener noreferrer" class="btn-project btn-project--primary">
+                        <i class="bi bi-github"></i> <span>Source Code</span>
+                      </a>
+                      <a href="assets/images/portfolio/pulse-chat.svg" class="btn-project btn-project--outline btn-view">
+                        <i class="bi bi-eye"></i> <span>Preview</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Evangadi Tech & AI Training Projects Section -->
+        <section class="portfolio section section--white" id="evangadi-projects">
+          <div class="container">
+            <!-- Heading -->
+            <div class="row" data-cues="fadeIn">
+              <div class="col-12">
+                <div class="heading">
+                  <div class="heading__shape"></div>
+                  <div class="heading__content">
+                    <h2>Evangadi Tech &amp; AI Projects</h2>
+                    <p>Core capstone applications and AI-driven platforms developed during intensive training at Evangadi Tech.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row portfolio__items" data-cues="fadeIn">
+              <!-- Evangadi Project 1: Evangadi Forum with RAG -->
+              <div class="col-xl-6 col-lg-6 col-md-12 mb-24">
+                <div class="portfolio-item card card--light">
+                  <div class="portfolio-item__image">
+                    <img class="portfolio-item__image__img" src="assets/images/portfolio/evangadi-forum.jpg" alt="Evangadi Forum with RAG Preview"/>
+                    <div class="portfolio-item__image__btn">
+                      <a href="assets/images/portfolio/evangadi-forum.jpg" class="btn-view" title="Zoom Preview">
+                        <i class="bi bi-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="portfolio-item__content">
+                    <div class="portfolio-item__content__info">
+                      <h5 class="portfolio-item__content__title">Evangadi Forum (with RAG AI Integration)</h5>
+                      <p class="portfolio-item__content__subtitle text-warning fw-bold">Full-Stack Q&amp;A Community &bull; RAG AI</p>
+                    </div>
+                    <p class="portfolio-item__desc">
+                      A full-stack question and answer developer platform enhanced with Retrieval-Augmented Generation (RAG). Indexes existing forum discussions and answers to generate verified, hallucination-free technical guidance for students with secure JWT authentication and relational MySQL storage.
+                    </p>
+                    <div class="portfolio-tags">
+                      <span class="tech-tag">React.js</span>
+                      <span class="tech-tag">Node.js</span>
+                      <span class="tech-tag">Express</span>
+                      <span class="tech-tag">MySQL</span>
+                      <span class="tech-tag">JWT</span>
+                      <span class="tech-tag">RAG AI</span>
+                    </div>
+                    <div class="portfolio-item__actions">
+                      <a href="https://github.com/Asrael21" target="_blank" rel="noopener noreferrer" class="btn-project btn-project--primary">
+                        <i class="bi bi-github"></i> <span>Source Code</span>
+                      </a>
+                      <a href="assets/images/portfolio/evangadi-forum.jpg" class="btn-project btn-project--outline btn-view">
+                        <i class="bi bi-eye"></i> <span>Preview</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Evangadi Project 2: ChatGPT Clone -->
+              <div class="col-xl-6 col-lg-6 col-md-12 mb-24">
+                <div class="portfolio-item card card--light">
+                  <div class="portfolio-item__image">
+                    <img class="portfolio-item__image__img" src="assets/images/portfolio/chatgpt-app.svg" alt="ChatGPT AI Clone Preview"/>
+                    <div class="portfolio-item__image__btn">
+                      <a href="assets/images/portfolio/chatgpt-app.svg" class="btn-view" title="Zoom Preview">
+                        <i class="bi bi-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="portfolio-item__content">
+                    <div class="portfolio-item__content__info">
+                      <h5 class="portfolio-item__content__title">ChatGPT Clone &amp; AI Assistant</h5>
+                      <p class="portfolio-item__content__subtitle text-warning fw-bold">Conversational AI &bull; Streaming Responses</p>
+                    </div>
+                    <p class="portfolio-item__desc">
+                      An interactive generative AI chatbot built with React and Node.js featuring real-time streaming tokens, conversation thread history, prompt templates, and an adaptive dark theme UI.
+                    </p>
+                    <div class="portfolio-tags">
+                      <span class="tech-tag">React.js</span>
+                      <span class="tech-tag">Node.js</span>
+                      <span class="tech-tag">OpenAI API</span>
+                      <span class="tech-tag">Prompt Engineering</span>
+                    </div>
+                    <div class="portfolio-item__actions">
+                      <a href="https://github.com/Asrael21" target="_blank" rel="noopener noreferrer" class="btn-project btn-project--primary">
+                        <i class="bi bi-github"></i> <span>Source Code</span>
+                      </a>
+                      <a href="assets/images/portfolio/chatgpt-app.svg" class="btn-project btn-project--outline btn-view">
+                        <i class="bi bi-eye"></i> <span>Preview</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Evangadi Project 3: Netflix Movie App -->
+              <div class="col-xl-6 col-lg-6 col-md-12 mb-24">
+                <div class="portfolio-item card card--light">
+                  <div class="portfolio-item__image">
+                    <img class="portfolio-item__image__img" src="assets/images/portfolio/netflix-clone.jpg" alt="Netflix Clone Project Preview"/>
+                    <div class="portfolio-item__image__btn">
+                      <a href="assets/images/portfolio/netflix-clone.jpg" class="btn-view" title="Zoom Preview">
+                        <i class="bi bi-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="portfolio-item__content">
+                    <div class="portfolio-item__content__info">
+                      <h5 class="portfolio-item__content__title">Netflix Movie Streaming Platform</h5>
+                      <p class="portfolio-item__content__subtitle text-warning fw-bold">Media Showcase &bull; REST API Integration</p>
+                    </div>
+                    <p class="portfolio-item__desc">
+                      A cinematic entertainment web application built at Evangadi Tech consuming live TMDb REST APIs. Features dynamic movie genre carousels, backdrop banners, YouTube trailer playback, and responsive styling.
+                    </p>
+                    <div class="portfolio-tags">
+                      <span class="tech-tag">React.js</span>
+                      <span class="tech-tag">TMDb API</span>
+                      <span class="tech-tag">Axios</span>
+                      <span class="tech-tag">CSS Modules</span>
+                    </div>
+                    <div class="portfolio-item__actions">
+                      <a href="https://github.com/Asrael21" target="_blank" rel="noopener noreferrer" class="btn-project btn-project--primary">
+                        <i class="bi bi-github"></i> <span>Source Code</span>
+                      </a>
+                      <a href="assets/images/portfolio/netflix-clone.jpg" class="btn-project btn-project--outline btn-view">
+                        <i class="bi bi-eye"></i> <span>Preview</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Evangadi Project 4: Apple.com Frontend Showcase -->
+              <div class="col-xl-6 col-lg-6 col-md-12 mb-24">
+                <div class="portfolio-item card card--light">
+                  <div class="portfolio-item__image">
+                    <img class="portfolio-item__image__img" src="assets/images/portfolio/apple-clone.jpg" alt="Apple.com Frontend Clone Preview"/>
+                    <div class="portfolio-item__image__btn">
+                      <a href="assets/images/portfolio/apple-clone.jpg" class="btn-view" title="Zoom Preview">
+                        <i class="bi bi-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="portfolio-item__content">
+                    <div class="portfolio-item__content__info">
+                      <h5 class="portfolio-item__content__title">Apple.com Flagship Front-End Showcase</h5>
+                      <p class="portfolio-item__content__subtitle text-warning fw-bold">Front-End Engineering &bull; Responsive UI</p>
+                    </div>
+                    <p class="portfolio-item__desc">
+                      Pixel-perfect frontend recreation of Apple's flagship website developed during the Evangadi course (engineered the complete frontend part). Features custom CSS layouts, video hero banners, smooth micro-interactions, and responsive device presentations.
+                    </p>
+                    <div class="portfolio-tags">
+                      <span class="tech-tag">HTML5</span>
+                      <span class="tech-tag">CSS3 / SCSS</span>
+                      <span class="tech-tag">JavaScript (ES6+)</span>
+                      <span class="tech-tag">Frontend UI</span>
+                    </div>
+                    <div class="portfolio-item__actions">
+                      <a href="https://github.com/Asrael21" target="_blank" rel="noopener noreferrer" class="btn-project btn-project--primary">
+                        <i class="bi bi-github"></i> <span>Source Code</span>
+                      </a>
+                      <a href="assets/images/portfolio/apple-clone.jpg" class="btn-project btn-project--outline btn-view">
+                        <i class="bi bi-eye"></i> <span>Preview</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 text-center mt-3">
+                <div class="section__readmore">
+                  Explore all code repositories and contributions on 
+                  <a href="https://github.com/Asrael21" target="_blank" rel="noopener noreferrer" class="section__readmore__link fw-bold ms-1">
+                    GitHub Profile <i class="bi bi-box-arrow-up-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Testimonials / Work Ethics -->
+        <section class="testimonials section section--white">
+          <div class="container">
+            <!-- Heading -->
+            <div class="row" data-cues="fadeIn">
+              <div class="col-12">
+                <div class="heading">
+                  <div class="heading__shape"></div>
+                  <div class="heading__content">
+                    <h2>Developer Values</h2>
+                    <p>What you can expect when collaborating with me.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row" data-cues="fadeIn">
+              <div class="col-lg-12">
+                <div class="swiper testimonials__swiper">
+                  <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                      <div class="testimonial card card--light text-center p-4">
+                        <div class="service__icon-wrap mb-3 mx-auto" style="width: 60px; height: 60px; font-size: 26px;">
+                          <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h6 class="fw-bold mb-2">Clean &amp; Maintainable Code</h6>
+                        <p class="testimonial__text">Adhering to modular structures, readable patterns, and established industry standards across the entire stack.</p>
+                        <div class="testimonial__info justify-content-center">
+                          <p class="fw-bold mb-0">Core Philosophy</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                      <div class="testimonial card card--light text-center p-4">
+                        <div class="service__icon-wrap mb-3 mx-auto" style="width: 60px; height: 60px; font-size: 26px;">
+                          <i class="bi bi-clock-history"></i>
+                        </div>
+                        <h6 class="fw-bold mb-2">Timely Execution &amp; Reliability</h6>
+                        <p class="testimonial__text">Focused on disciplined sprint execution, clear milestone management, and dependable project delivery.</p>
+                        <div class="testimonial__info justify-content-center">
+                          <p class="fw-bold mb-0">Work Ethic</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                      <div class="testimonial card card--light text-center p-4">
+                        <div class="service__icon-wrap mb-3 mx-auto" style="width: 60px; height: 60px; font-size: 26px;">
+                          <i class="bi bi-chat-square-quote"></i>
+                        </div>
+                        <h6 class="fw-bold mb-2">Clear &amp; Proactive Communication</h6>
+                        <p class="testimonial__text">Collaborative mindset with regular progress updates, thoughtful feedback, and continuous alignment.</p>
+                        <div class="testimonial__info justify-content-center">
+                          <p class="fw-bold mb-0">Teamwork</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                      <div class="testimonial card card--light text-center p-4">
+                        <div class="service__icon-wrap mb-3 mx-auto" style="width: 60px; height: 60px; font-size: 26px;">
+                          <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <h6 class="fw-bold mb-2">Analytical Problem Solving</h6>
+                        <p class="testimonial__text">Leveraging an engineering background to break down complex architectural requirements into elegant solutions.</p>
+                        <div class="testimonial__info justify-content-center">
+                          <p class="fw-bold mb-0">Engineering Mindset</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section section--light" id="contact">
+          <div class="container">
+            <!-- Heading -->
+            <div class="row" data-cues="fadeIn">
+              <div class="col-12">
+                <div class="heading">
+                  <div class="heading__shape"></div>
+                  <div class="heading__content">
+                    <h2>Contact Me</h2>
+                    <p>Let's discuss full-stack opportunities, web projects, or collaborations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form + Info -->
+            <div class="row" data-cues="fadeIn">
+              <div class="col-xl-7 mb-24">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form needs-validation card card--white shadow-sm" novalidate>
+                  
+                  <!-- Form status alert feedback -->
+                  <div id="formAlert" class="form-status-alert"></div>
+
+                  <!-- Web3Forms Access Key or recipient indicator -->
+                  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                  <input type="hidden" name="to" value="israelteshale2023@gmail.com">
+                  <input type="hidden" name="from_name" value="Portfolio Contact Form">
+
+                  <div class="row">
+                    <div class="col-md-6 mb-24">
+                      <label for="name" class="form-label fw-bold mb-2">Your Name</label>
+                      <input type="text" name="name" class="form-control contact-form__input" id="name" placeholder="Israel Teshale" required>
+                      <div class="invalid-feedback">Please enter your name.</div>
+                    </div>
+
+                    <div class="col-md-6 mb-24">
+                      <label for="email" class="form-label fw-bold mb-2">Your Email</label>
+                      <input type="email" name="email" class="form-control contact-form__input" id="email" placeholder="name@example.com" required>
+                      <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-12 mb-24">
+                      <label for="subject" class="form-label fw-bold mb-2">Subject</label>
+                      <input type="text" name="subject" class="form-control contact-form__input" id="subject" placeholder="Project Inquiry / Job Opportunity" required>
+                      <div class="invalid-feedback">Please enter a subject.</div>
+                    </div>
+                          
+                    <div class="col-lg-12 mb-24">
+                      <label for="msg" class="form-label fw-bold mb-2">Message</label>
+                      <textarea name="message" class="form-control contact-form__input" id="msg" rows="5" placeholder="Hi Israel, I'd like to talk about..." required></textarea>
+                      <div class="invalid-feedback">Please enter your message.</div>
+                    </div>
+                        
+                    <div class="col-12">
+                      <button type="submit" class="btn-default"> 
+                        <i class="bi bi-send-fill"></i>
+                        <span>Send Message</span>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-xl-5">
+                <div class="contact__info card card--white shadow-sm">
+                  <h4>Let's build something great together!</h4>
+                  <p>
+                    I am actively seeking Full-Stack Developer opportunities, frontend/backend engineering roles, and challenging web projects. Feel free to reach out directly via email, phone, or Telegram.
+                  </p>
+                  
+                  <div class="contact__info__items">
+                    <div class="contact-item">
+                      <p class="contact-item__name">Phone:</p>
+                      <p class="contact-item__text">
+                        <i class="bi bi-telephone-fill contact-item__text__icon text-warning"></i> 
+                        <a href="tel:+251938181656" class="text-decoration-none">+251 938 181 656</a>
+                      </p>
+                    </div>
+
+                    <div class="contact-item">
+                      <p class="contact-item__name">Email:</p>
+                      <p class="contact-item__text">
+                        <i class="bi bi-envelope-fill contact-item__text__icon text-warning"></i>
+                        <a href="mailto:israelteshale2023@gmail.com" class="text-decoration-none">israelteshale2023@gmail.com</a>
+                      </p>
+                    </div>
+
+                    <div class="contact-item">
+                      <p class="contact-item__name">Location:</p>
+                      <p class="contact-item__text">
+                        <i class="bi bi-geo-alt-fill contact-item__text__icon text-warning"></i> 
+                        <span>Addis Ababa, Ethiopia</span>
+                      </p>
+                    </div>
+
+                    <div class="contact-item">
+                      <p class="contact-item__name">Telegram:</p>
+                      <p class="contact-item__text">
+                        <i class="bi bi-telegram contact-item__text__icon text-warning"></i> 
+                        <a href="https://t.me/IsraelTeshale" target="_blank" rel="noopener noreferrer" class="text-decoration-none">@IsraelTeshale</a>
+                      </p>
+                    </div>
+
+                    <div class="contact-item">
+                      <p class="contact-item__name">Social &amp; Code:</p>
+                      <div class="contact-item__social-media">
+                        <ul class="social-media">
+                          <li class="social-media__item">
+                            <a href="https://github.com/Asrael21" target="_blank" rel="noopener noreferrer" class="social-media__link" title="GitHub">
+                              <i class="bi bi-github"></i>
+                            </a>
+                          </li>
+                          <li class="social-media__item">
+                            <a href="https://t.me/IsraelTeshale" target="_blank" rel="noopener noreferrer" class="social-media__link" title="Telegram">
+                              <i class="bi bi-telegram"></i>
+                            </a>
+                          </li>
+                          <li class="social-media__item">
+                            <a href="mailto:israelteshale2023@gmail.com" class="social-media__link" title="Email">
+                              <i class="bi bi-envelope-fill"></i>
+                            </a>
+                          </li>
+                          <li class="social-media__item">
+                            <a href="tel:+251938181656" class="social-media__link" title="Phone">
+                              <i class="bi bi-telephone-fill"></i>
+                            </a>
+                          </li>  
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 text-center text-md-start">
+                <p class="footer__copyright mb-0">© 2026 Israel Teshale. All Rights Reserved.</p>
+              </div>
+              <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+                <p class="footer__copyright mb-0">Full-Stack Web Developer &bull; Addis Ababa, Ethiopia</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+      </main>
+    </div>
+  
+    <!-- JS here -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.animatedheadline.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/scrollCue.min.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

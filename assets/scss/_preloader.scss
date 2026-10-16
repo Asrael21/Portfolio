@@ -1,0 +1,22 @@
+/* -----------------------------
+		 Preloader 
+--------------------------------- */
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $white-color;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .spinner-border{ 
+        border: 0.25em solid $accent-color;
+        border-right-color:transparent;
+    }
+
+   
+}
+

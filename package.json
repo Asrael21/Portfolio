@@ -1,0 +1,18 @@
+{
+  "name": "israel-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website for Israel Teshale - Full-Stack Developer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "javascript",
+    "full-stack",
+    "react",
+    "node"
+  ],
+  "author": "Israel Teshale",
+  "license": "MIT"
+}

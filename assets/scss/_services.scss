@@ -1,0 +1,22 @@
+/* ------------------------------
+		. Services 
+------------------------------ */
+.service{
+    text-align: center;
+    @include ease(0.7);
+    &__img{
+      padding:20px;
+    }
+    &__content{
+        &__title{
+            margin-bottom: 15px;
+
+        }
+        &__desc{
+         margin-bottom: 0;
+        }
+    }
+    &:hover{
+     @include shadow();
+    }
+}
